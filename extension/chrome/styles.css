@@ -305,6 +305,11 @@ li.actions-small-1{
   color: var(--text) !important;
 }
 
+/* Changes colour of selector on news page*/
+.side-nav{
+  background-color: var(--foreground) !important;
+}
+
 /* ---------------------- ICONS ---------------------- */
 /* Changes the due work icon */
 
