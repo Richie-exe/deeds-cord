@@ -132,6 +132,22 @@ h3 {
   color: var(--text) !important;
 }
 
+strong {
+  color: var(--text) !important;
+}
+
+label {
+  color: var(--text) !important;
+}
+
+time {
+  color: var(--text) !important;
+}
+
+li {
+  color: var(--text) !important;
+}
+
 span{
   color: var(--text) !important;
   /* Fix bugs on pages such as the deeds.cgs.vic.edu.au/policy white highlighting issue. */
@@ -145,6 +161,25 @@ p {
 td {
   color: var(--text) !important;
 }
+
+/* Adds dark mode to the search box and results */
+.global-search .result-meta {
+  background: var(--background) !important;
+}
+
+.global-search .results {
+  border-color: var(--foreground) !important;
+  background-color: var(--background) !important;
+}
+
+.global-search [type=text]:focus, .global-search [type=text]:active, .global-search:hover [type=text], .global-search:hover [type=text]:focus{
+  border-color: var(--foreground) !important;
+}
+
+.global-search .result-meta.with-bg {
+  color: var(--text) !important;
+}
+
 /* ---------------------- QUIZZES PAGES ---------------------- */
 /* Adds dark mode to the start quiz confirmation page */
 .row>div>div>table>tbody{
