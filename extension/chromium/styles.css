@@ -145,6 +145,11 @@ p {
 td {
   color: var(--text) !important;
 }
+
+/* fix issue #31 */
+.left-off-canvas-menu .left-submenu, .left-off-canvas-menu .left-submenu .back>a{
+  background-color: var(--background) !important;
+}
 /* ---------------------- QUIZZES PAGES ---------------------- */
 /* Adds dark mode to the start quiz confirmation page */
 .row>div>div>table>tbody{
